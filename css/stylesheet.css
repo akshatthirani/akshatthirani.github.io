@@ -49,7 +49,7 @@ html, body {
 
 .aboutMe{
 	width: 100%; 
-	height: 80%;
+	height: auto;
 
 	padding: 25px;
 
@@ -83,12 +83,12 @@ html, body {
 	.profileImage {
 		position: absolute;
 		margin-left: 5%;
-		width: 200px;
 		}
 
 
 	img.profilePic {
-		max-height: 350px;
+		width: auto;
+		max-height: 50%;
 		margin-left: 30px;
 	}
 
@@ -108,11 +108,115 @@ html, body {
 	}
 
 .skills{
-	width: 100%; 
-	height: 50%;
+	width: 100%;
+	padding-bottom: 1px;
+	height: auto;
 
-	background-color: #58585A;
-}
+	background-color: #F3F3F4;
+	}
+
+	.skills h1{
+		text-align:center;
+
+
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		color: #000000;
+		font-weight: 200;
+
+		padding: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin: 0px;
+
+		font-size: 50px;
+
+	}
+
+	.skillsContainer{
+		position: relative;
+
+		margin-left: 15px;
+		margin-right: 15px;
+
+	}
+
+	.skillsContainer .skillCell {
+		padding-left: 20%;
+		padding-right: 10%;	
+		margin-bottom: 40px;
+	}
+
+	.skillTitle{
+	  float: left;
+	  width: 20%;
+		}
+
+		.skillTitle h3{
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			color: #424243;
+			font-weight: 200;
+			font-size: 30px;
+		}
+
+	.skillInfo{
+		padding-left: 40%;
+	}
+
+		.skillInfo p{
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			color: #8A8C8F;
+			font-weight: 200;
+			font-size: 25px;
+		}
+
+.projects{
+	width: 100%;
+	max-height: 80%; 
+	height: auto;
+	}
+
+	.projects h1{
+			text-align:center;
+
+
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			color: #000000;
+			font-weight: 200;
+
+			padding: 10px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin: 0px;
+
+			font-size: 50px;
+		}
+
+	.proj{
+		width: 100%;
+		min-height: 100px;
+
+		border-top-style: solid;
+		border-bottom-style: solid;
+    	border-width: 1px;
+    	border-color: #58585A;
+
+    	
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
