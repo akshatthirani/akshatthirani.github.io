@@ -208,6 +208,7 @@ html, body {
     	text-align:center;
 	}
 
+
 	.proj img{
 		padding-top: 4%;
 		padding-left: 6%;
@@ -223,6 +224,19 @@ html, body {
 
 		font-size: 25px;
 		    line-height: 130%;
+	}
+
+
+
+	.proj p{
+
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: #58585A;
+		font-weight: 200;
+
+		font-size: 25px;
+		    line-height: 130%;
+
 	}
 
 
